@@ -1,0 +1,84 @@
+/* styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles here */
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sidebar-left {
+  --tw-bg-opacity: 0.8;
+  background-color: rgb(42 42 42/var(--tw-bg-opacity));
+
+  /* border-top-right-radius: 3rem; */
+  /* border-bottom-right-radius: 3rem; */
+}
+
+@media (min-width: 960px) {
+  .header_shape {
+    position: absolute;
+    top: -15%;
+    right: 0;
+    width: 50%;
+    background-position: left bottom;
+    background-image: url(../public/img/header_shape.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 960px) {
+  .portimg {
+    display: grid;
+  }
+}
+
+
+
+.cardbg {
+  /* background-color: rgb(244 240 252); */
+  --tw-rotate: 0deg;
+  transform: var(--tw-transform);
+  opacity: 0.3;
+  /* --tw-translate-x: -33.333333%;
+  --tw-translate-y: 4rem;
+  --tw-gradient-stops: var(--tw-gradient-from), #312e81, var(--tw-gradient-to, rgba(49, 46, 129, 0));
+  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+  --tw-scale-y: 1.1; */
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  --tw-gradient-to: #10b981;
+}
+
+#logo {
+  background-repeat: no-repeat;
+  /* background-positio n: 0 0; */
+  /* color: transparent; */
+  /* font: 0 / 0 a; */
+  /* text-shadow: none; */
+  /* background: url(../public/img/logo_2x.svg) 0 0 no-repeat; */
+  /* background-size: 126px 70px; */
+  height: auto;
+  /* left: 20px; */
+  /* position: absolute; */
+  width: 200px;
+  /* z-index: 999; */
+  /* margin-top: 0px; */
+}
